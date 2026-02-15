@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link href="style.css" rel="stylesheet"/>
+    </head>
+    <body>
+        <header>
+            <h1 id="score" style="text-align: center;">Score <span class="score-span" id="0">0</span></h1>
+        </header>
+        <main class="grid-container">
+        <article id="levels" class="grid-element" style="grid-area: box-1">
+            <div class="level-component level-1" id="1">
+                <h1>Level1</h1>
+            </div>
+            <div class="level-component" id="2">
+                <h1>Level2</h1>
+            </div>
+            <div class="level-component" id="3">
+                <h1>Level3</h1>
+            </div>
+            <div class="level-component" id="4">
+                <h1>Level4</h1>
+            </div>
+            <div class="level-component" id="5">
+                <h1>Level5</h1>
+            </div>
+        </article>
+        <article id="component-words" class="grid-element" style="grid-area: box-2">
+            <div>
+                <ul class="words">
+                    <li class="words-element" style="grid-area: word-1" id="word-1">csillag</li>
+                    <li class="words-element" style="grid-area: word-2" id="word-2">erdő</li>
+                    <li class="words-element" style="grid-area: word-3" id="word-3">szél</li>
+                    <li class="words-element" style="grid-area: word-4" id="word-4">könyv</li>
+                    <li class="words-element" style="grid-area: word-5" id="word-5">ablak</li>
+                    <li class="words-element" style="grid-area: word-6" id="word-6">tenger</li>
+                    <li class="words-element" style="grid-area: word-7" id="word-7">szív</li>
+                    <li class="words-element" style="grid-area: word-8" id="word-8">hegy</li>
+                    <li class="words-element" style="grid-area: word-9" id="word-9">fény</li>
+                    <li class="words-element" style="grid-area: word-10" id="word-10">madár</li>
+                </ul>
+            </div>
+        </article>
+        <article class="grid-select" style="grid-area: box-3">
+            <button value="Swedish" class="btn-select" id="btn-select1" style="grid-area: button1;">Swedish</button>
+            <button value="Polish" class="btn-select" id="btn-select2" style="grid-area: button2;">Polish</button>
+            <button value="Hungarian" class="btn-select" id="btn-select3" style="grid-area: button3;">Hungarian</button>
+            <button value="Czech" class="btn-select" id="btn-select4" style="grid-area: button4;">Czech</button>
+        </article>
+        </main>
+        <script defer type="module" src="display.js"></script>
+        <script defer type="module" src="script.js"></script>
+    </body>
+</html>
