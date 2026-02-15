@@ -76,7 +76,7 @@ export function validateInput(input,answer,passLevel,nextLevel){
                 }else{
                     input.style.backgroundColor = "";                
                 }
-            },1000)
+            },200)
         }
 }
 
