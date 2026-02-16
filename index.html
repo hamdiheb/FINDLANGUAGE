@@ -4,6 +4,7 @@
         <link href="style.css" rel="stylesheet"/>
     </head>
     <body>
+        <button onclick="toggleDark()">🌙 Dark Mode</button>
         <header>
             <h1 id="score" style="text-align: center;">Score <span class="score-span" id="0">0</span></h1>
         </header>
@@ -50,5 +51,11 @@
         </main>
         <script defer type="module" src="display.js"></script>
         <script defer type="module" src="script.js"></script>
+        <script>
+function toggleDark() {
+    document.body.classList.toggle("dark");
+}
+</script>
+
     </body>
 </html>
